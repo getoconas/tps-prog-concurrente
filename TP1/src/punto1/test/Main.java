@@ -1,3 +1,6 @@
+/*
+ * @author mago 
+ */
 package punto1.test;
 
 import punto1.domain.CuentaBancaria;
