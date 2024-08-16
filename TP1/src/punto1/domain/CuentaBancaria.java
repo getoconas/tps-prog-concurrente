@@ -1,3 +1,6 @@
+/*
+ * @author mago 
+ */
 package punto1.domain;
 
 public class CuentaBancaria {
