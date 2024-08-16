@@ -56,6 +56,7 @@ public class CuentaSueldo extends CuentaBancaria {
 		}
 	}
 	
+	// Transfiere una cantidad determinada a un alias
 	public void transferir(double cantidad, String alias) {
 		if (this.saldo_actual > 0 && cantidad <= this.saldo_actual) {
 			this.saldo_actual -= cantidad;
@@ -66,6 +67,7 @@ public class CuentaSueldo extends CuentaBancaria {
 		}
 	}
 	
+	// Muestra información de la cuenta
 	public String toString() {
 		return super.toString() + "\n" +
 				"LEGAJO: " + this.legajo + "\n" +
