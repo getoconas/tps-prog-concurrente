@@ -1,3 +1,6 @@
+/*
+ * @author mago 
+ */
 package punto2.domain;
 import java.util.Random;
 

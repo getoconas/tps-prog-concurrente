@@ -1,3 +1,6 @@
+/*
+ * @author mago 
+ */
 package punto2.test;
 
 import punto2.domain.CuentaSueldo;
