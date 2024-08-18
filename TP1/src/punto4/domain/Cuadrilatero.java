@@ -1,3 +1,6 @@
+/*
+ * @author mago 
+ */
 package punto4.domain;
 
 public class Cuadrilatero extends Forma {
@@ -5,7 +8,6 @@ public class Cuadrilatero extends Forma {
   private double lado2;
   private double lado3;
   private double lado4;
-  private double perimetro;
 
   // Constructor por Defecto
   public Cuadrilatero() {
@@ -13,7 +15,6 @@ public class Cuadrilatero extends Forma {
     this.lado2 = 0;
     this.lado3 = 0;
     this.lado4 = 0;
-    this.perimetro = 0;
   }
 
   // Constructor con los lados

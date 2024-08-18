@@ -1,3 +1,6 @@
+/*
+ * @author mago 
+ */
 package punto4.test;
 
 import punto4.domain.Cuadrilatero;

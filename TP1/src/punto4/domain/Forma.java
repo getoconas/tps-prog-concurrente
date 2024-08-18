@@ -1,3 +1,6 @@
+/*
+ * @author mago 
+ */
 package punto4.domain;
 
 public abstract class Forma {
