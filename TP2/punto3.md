@@ -27,6 +27,7 @@ Proceso1
   // Cruzar la calle
   signal(semaforo_cuadrante1)
   signal(semaforo_cuadrante2)
+FinProceso1
 ```
 
 Procedimiento para el automovil que va hacia el oeste
@@ -37,6 +38,7 @@ Proceso2
   // Cruzar la calle
   signal(semaforo_cuadrante2)
   signal(semaforo_cuadrante3)
+FinProceso2
 ```
 
 Procedimiento para el automovil que va hacia el sur
@@ -47,6 +49,7 @@ Proceso3
   // Cruzar la calle
   signal(semaforo_cuadrante3)
   signal(semaforo_cuadrante4)
+FinProceso3
 ```
 
 Procedimiento para el automovil que va hacia el este
@@ -57,4 +60,7 @@ Proceso4
   // Cruzar la calle
   signal(semaforo_cuadrante4)
   signal(semaforo_cuadrante1)
+FinProceso4
 ```
+
+Para que los automóviles crucen la calle, un auto tiene que bloquear los dos cuadrantes que necesita para cruzar, en donde una vez que tiene el acceso a ambos cuadrantes circula por la calle, realizada esta acción libera los dos cuadrantes para que el próximo auto pueda cruzar la calle
