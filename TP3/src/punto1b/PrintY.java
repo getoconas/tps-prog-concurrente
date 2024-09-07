@@ -1,3 +1,6 @@
+/**
+ * @author mago
+ */
 package punto1b;
 
 public class PrintY extends Thread {
