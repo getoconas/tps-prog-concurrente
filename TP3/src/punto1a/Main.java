@@ -1,3 +1,6 @@
+/**
+ * @author mago
+ */
 package punto1a;
 
 public class Main {
