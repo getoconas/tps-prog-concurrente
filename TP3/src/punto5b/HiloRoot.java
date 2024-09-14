@@ -3,19 +3,17 @@
  */
 package punto5b;
 
-import java.util.Random;
-
 public class HiloRoot extends Thread {
+	private int root;
 	
-	public HiloRoot() {
-		
+	public HiloRoot(int root) {
+		this.root = root;
 	}
 		
 	@Override
 	public void run() {
-		int root = new Random().nextInt(20) + 1;
-		double result = SumRootN(root);
-		System.out.println("root " + root + ": " + result);
+		double result = SumRootN(this.root);
+		System.out.println("root " + this.root + ": " + result);
 	}
 	
 	public static double SumRootN(int root) {

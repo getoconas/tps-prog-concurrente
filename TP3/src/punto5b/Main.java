@@ -15,10 +15,10 @@ public class Main {
 	}
 	
 	private static void ejecutarHilos() {
-		Thread[] hilos = new Thread[20];
+		Thread hilos[] = new Thread[20];
 		// Crea los 20 hilos para la ejecucion concurrente
 		for (int j = 0; j < 20; j++) {
-			hilos[j] = new HiloRoot();
+			hilos[j] = new HiloRoot(j+1);
 			hilos[j].start(); // Ejecuta el metodo SumRootN
 		}
 		// Espera que termina de ejecutar los 20 hilos con el metodo join()
@@ -26,7 +26,6 @@ public class Main {
 			try {
 				hilos[k].join();
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
